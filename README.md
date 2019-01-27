@@ -10,7 +10,7 @@
 ### What's in this image?
 This docker image contains an archlinux installation ([base/archlinux](https://hub.docker.com/r/base/archlinux)) with some additional packages:
 
-Lists of packages added since official rest:
+List of packages added from official rest:
 - base-devel
 - make
 - git
