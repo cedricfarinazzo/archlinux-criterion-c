@@ -1,5 +1,5 @@
 FROM archlinux/base
-LABEL authors="Cédric Farinazzo <cedrc.farinazzo@gamil.com>"
+LABEL authors="Cédric Farinazzo <cedrc.farinazzo@gmail.com>"
 
 #Base installation
 RUN pacman --noconfirm -Syyu
