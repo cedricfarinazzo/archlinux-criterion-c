@@ -1,4 +1,4 @@
-FROM base/archlinux
+FROM archlinux/base
 LABEL authors="Cédric Farinazzo <cedrc.farinazzo@gamil.com>"
 
 #Base installation
