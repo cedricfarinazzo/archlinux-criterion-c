@@ -4,7 +4,7 @@ LABEL authors="Cédric Farinazzo <cedrc.farinazzo@gmail.com>"
 #Base installation
 RUN pacman --noconfirm -Syyu
 
-RUN pacman --noconfirm -S base-devel make git valgrind gcc clang gtk3 cmake sudo go
+RUN pacman --noconfirm -S base-devel make git valgrind gcc clang gtk3 cmake sudo go curl wget
 
 # Add user, group sudo
 RUN /usr/sbin/groupadd --system sudo && \
