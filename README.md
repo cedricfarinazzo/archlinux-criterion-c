@@ -20,7 +20,6 @@ List of packages added from official rest:
 - gtk3
 - cmake
 - sudo
-- go
 
 List of [AUR](https://aur.archlinux.org/) packages:
 - [criterion](https://criterion.readthedocs.io)
