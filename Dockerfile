@@ -26,3 +26,5 @@ RUN cd /tmp && \
 # Install criterion
 RUN sudo -u user yay -S --noconfirm criterion
 
+RUN pacman --noconfirm -Rns go
+RUN pacman --noconfirm -Rns yay
