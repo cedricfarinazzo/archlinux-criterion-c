@@ -6,7 +6,7 @@ RUN pacman --noconfirm -Syyu
 
 RUN pacman --noconfirm -Syu wget
 
-RUN pacman --noconfirm -S base-devel make git valgrind gcc clang gtk3 cmake sudo go curl gcovr
+RUN pacman --noconfirm -S base-devel make git valgrind gcc clang gtk3 cmake sudo go curl gcovr doxygen
 
 # Add user, group sudo
 RUN /usr/sbin/groupadd --system sudo && \
