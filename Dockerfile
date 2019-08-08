@@ -16,7 +16,7 @@ RUN /usr/sbin/groupadd --system sudo && \
 
 
 # Install yay - https://github.com/Jguer/yay
-ENV yay_version=9.1.0
+ENV yay_version=9.2.1
 ENV yay_folder=yay_${yay_version}_x86_64
 RUN cd /tmp && \
     curl -L https://github.com/Jguer/yay/releases/download/v${yay_version}/${yay_folder}.tar.gz | tar zx && \
@@ -24,6 +24,6 @@ RUN cd /tmp && \
     install -Dm644 ${yay_folder}/yay.8 /usr/share/man/man8/yay.8
 
 # Install criterion
-RUN sudo -u user yay -S --noconfirm criterion lcov
+RUN sudo -u user yay -S --mflags --skipinteg --noconfirm criterion lcov
 
-RUN pacman --noconfirm -Rns go
+RUN pacman --noconfirm -Rns go yay

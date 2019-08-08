@@ -20,9 +20,14 @@ List of packages added from official rest:
 - gtk3
 - cmake
 - sudo
+- curl
+- gcovr
+- doxygen
+- graphviz
 
 List of [AUR](https://aur.archlinux.org/) packages:
 - [criterion](https://criterion.readthedocs.io)
+- lcov
 
 ### Links
 - [https://github.com/cedricfarinazzo/archlinux-criterion-c](https://github.com/cedricfarinazzo/archlinux-criterion-c)
