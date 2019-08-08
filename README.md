@@ -28,6 +28,7 @@ List of packages added from official rest:
 List of [AUR](https://aur.archlinux.org/) packages:
 - [criterion](https://criterion.readthedocs.io)
 - lcov
+- yay
 
 ### Links
 - [https://github.com/cedricfarinazzo/archlinux-criterion-c](https://github.com/cedricfarinazzo/archlinux-criterion-c)

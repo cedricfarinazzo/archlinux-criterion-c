@@ -26,4 +26,4 @@ RUN cd /tmp && \
 # Install criterion
 RUN sudo -u user yay -S --mflags --nocheck --noconfirm criterion lcov
 
-RUN pacman --noconfirm -Rns go yay
+RUN pacman --noconfirm -Rns go
