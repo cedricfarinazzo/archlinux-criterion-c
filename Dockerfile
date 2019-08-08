@@ -24,6 +24,6 @@ RUN cd /tmp && \
     install -Dm644 ${yay_folder}/yay.8 /usr/share/man/man8/yay.8
 
 # Install criterion
-RUN sudo -u user yay -S --mflags --skipinteg --noconfirm criterion lcov
+RUN sudo -u user yay -S --mflags --nocheck --noconfirm criterion lcov
 
 RUN pacman --noconfirm -Rns go yay
